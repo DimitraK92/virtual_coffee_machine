@@ -27,4 +27,4 @@ def calculate_total_money():
     return quarters * 0.25 + dimes * 0.10 + nickles * 0.05 + pennies * 0.01
 
 def calculate_change(total, cost):
-    return total - cost
+    return round(total - cost, 2)
